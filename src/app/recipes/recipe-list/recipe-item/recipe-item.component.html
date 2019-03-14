@@ -1,4 +1,5 @@
-<a (click)="onSelected()" class="list-group-item list-group-item-action" href="#">
+<a class="list-group-item list-group-item-action" routerLink="{{recipe.id}}" routerLinkActive="active"
+   style="cursor: pointer">
   <div class="d-flex w-100 justify-content-between">
     <div class="d-inline-block">
       <h4 class="mb-1">{{recipe.name}}</h4>
